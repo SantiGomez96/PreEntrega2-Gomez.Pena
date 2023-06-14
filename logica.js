@@ -80,7 +80,7 @@ while(mensaje.toLowerCase() == 's'){
             incrementarTotal(40000);
             break;
         case '16':
-            alert('Agregaste Pulsera Poderosa Silver por $34900 a tu carro 🛒');
+            alert('Agregaste Pulsera Poderosa Silver por $34900 a tu carro 🛒');s
             incrementarTotal(40000);
             break;
         default:
@@ -109,6 +109,55 @@ if (Encuesta == '1'){
     alert("Muchas gracias, esperamos poder servirte nuevamente");
 }else
  alert (nombreUsuario+ ' Recuerda que en Ador, siempre encontraras los mejores accesorios para hacer de lo ordinario algo extraordinario');
+
+ //Interaccion con el Array
+ console.table(productos);
+ 
+ //funcion filtrar por precio
+ function filtrarPorPrecio(precio){
+    const filtradosPre = productos.filter((prod)=>prod.precio <= precio);
+    return filtradosPre;
+ }
+
+ //datos de entrada
+ let precioMax = parseFloat(prompt('ingresa el maximo valor que estas duspuesto a pagar 0-para salir'));
+
+ while(precioMax != 0){
+    if(isNaN(precioMax) || precioMax < 0){
+        alert('ingrese un numero valido');
+    }else{
+        //ya tenemos un numero valido
+        const productsFiltrados = filtrarPorPrecio(precioMax);
+        console.table(productsFiltrados);
+    }
+    precioMax = parseFloat(prompt('ingresa el maximo valor que estas dispuesto a pagar 0- para salir'));
+ }
+
+ //funcion buscar productos
+ const buscar = productos.find(producto => producto.id === 10)
+    console.log(buscar);
+
+//funcion filtrado map
+
+const listaNombres = productos.map(producto => producto.nombre)
+console.log(listaNombres);
+
+//index of
+let buscarNombreProduct = prompt('ingresa el nombre del producto');
+
+if (productos.indexOf(buscarNombreProduct) == -1){
+    alert(buscarNombreProduct + 'Producto sin stock');
+    let respuesta = prompt ('Desea hablar con un asesor para averiguar sobre ' + buscarNombreProduct +'? (s-si n-no)');
+    if(respuesta.toLocaleLowerCase () == 's'){
+        alert ('en unos minutos lo contactaremos');
+    }else{
+        alert('esperamos contar con el producto que desea en la proxima ocasion')
+    }
+}
+
+
+
+
 
 
 

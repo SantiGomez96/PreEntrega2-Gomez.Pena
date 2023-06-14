@@ -2,7 +2,7 @@ const productos = [
     {
       id: 1,
       nombre: "Candongas Domenica",
-      precio: 39.900,
+      precio: 39900,
       descripcion: "Candongas chunky doradas con detalle texturizado, son livianas y divinas para ocasiones especiales.",
       imagen: "Candongas_Domenica.jpg",
       categoria: "Aretes, Candongas, Piercings",
@@ -15,7 +15,7 @@ const productos = [
     {
         id: 2,
       nombre: "Candongas Serena",
-      precio: 39.900,
+      precio: 39900,
       descripcion: "Candongas estilo entorchadas en color dorado, divinas para ocasiones especiales.",
       imagen: "Candongas_Serena.jpg",
       categoria: "Aretes, Candongas, Piercings",
@@ -29,7 +29,7 @@ const productos = [
     {
         id: 3,
       nombre: "Candongas Mirabella Gold",
-      precio: 39.900,
+      precio: 39900,
       descripcion: "Candongas asimétricas en color dorado, divinos para ocasiones especiales.",
       imagen: "Candongas_Mirabella_Gold.jpg",
       categoria: "Aretes, Candongas, Piercings",
@@ -43,7 +43,7 @@ const productos = [
     {
         id: 4,
       nombre: "Candongas Protectora Mini-Silver",
-      precio: 59.900,
+      precio: 59900,
       descripcion: "Candongas mini con dije de ojito colgante este se puede remover para usarlas de 2 formas, divinas para ocasiones especiales.",
       imagen: "Candongas_Protectora_Mini_Silver.jpg",
       categoria: "Aretes, Candongas, Piercings",
@@ -57,7 +57,7 @@ const productos = [
     {
         id: 5,
       nombre: "Set Cadenas Super Woman",
-      precio: 59.900,
+      precio: 59900,
       descripcion: "Dúo de cadenas con dijes de ojito y cerradura, divinas y versátiles para cualquier ocasión.",
       imagen: "Set_Cadenas_Super_Woman.jpg",
       categoria: "Cadenas,Chokers,Muse Collection,Sets",
@@ -71,7 +71,7 @@ const productos = [
     {
         id: 6,
       nombre: "Cadena Muse Silver",
-      precio: 99.900,
+      precio: 99900,
       descripcion: "Cadena de eslabores con dijes en color Plateado, divino para ocasiones especiales.",
       imagen: "Canena_Muse_Silver.jpg",
       categoria: "Cadenas, Chokers, Collection",
@@ -85,7 +85,7 @@ const productos = [
     {
         id: 7,
       nombre: "Choker Irina Silver",
-      precio: 39.900,
+      precio: 39900,
       descripcion: "Choker plateado elegante y divino para ocasiones especiales. Especial para hacer layering con otras cadenas.",
       imagen: "Choker_Irina_Silver.jpg",
       categoria: "Cadenas, Chokers",
@@ -99,7 +99,7 @@ const productos = [
     {
         id: 8,
       nombre: "Cadena Nicoletta",
-      precio: 35.000,
+      precio: 35000,
       descripcion: "Cadena de balines en color dorado, divino para ocasiones especiales.Especial para hacer layering con otras cadenas.",
       imagen: "Cadena_Nicoletta.jpg",
       categoria: "Cadenas",
@@ -113,7 +113,7 @@ const productos = [
     {
         id: 9,
       nombre: "Set Cadenas Priscilla",
-      precio: 49.900,
+      precio: 49900,
       descripcion: "Set cadena de balines en dorado + Topitos balines mini, divina para ocasiones especiales.",
       imagen: "Set-Cadenas-Priscilla.jpg",
       categoria: "Cadenas,Chokers,Sets",
@@ -127,7 +127,7 @@ const productos = [
     {
         id: 10,
       nombre: "Choker Aria Gold",
-      precio: 39.900,
+      precio: 39900,
       descripcion: "Choker dorado de eslabones, divino para ocasiones especiales.Especial para hacer layering con otras cadenas.",
       imagen: "Choker_Aria_Gold.jpg",
       categoria: "Cadenas, Chokers",
@@ -141,7 +141,7 @@ const productos = [
     {
         id: 11,
       nombre: "Earcuff Magia Silver",
-      precio: 29.900,
+      precio: 29900,
       descripcion: "Earcuff estilo entorchado texturizado en color plateado, divinos para ocasiones especiales.",
       imagen: "Earcuff_Magia_Silver.jpg",
       categoria: "Aretes, Earcuffs, Muse Colletion",
@@ -155,7 +155,7 @@ const productos = [
     {
         id: 12,
       nombre: "Candogas Maxi Cora Gold",
-      precio: 49.900,
+      precio: 49900,
       descripcion: "Candongas Chunky con detalles de corazónes, ideales para armar tu EARPARTY soñado.",
       imagen: "Candongas_Maxi_Cora_Gold.jpg",
       categoria: "Aretes, Candongas, Piercings",
@@ -169,7 +169,7 @@ const productos = [
     {
         id: 13,
       nombre: "Aretes Curiosa Silver",
-      precio: 39.900,
+      precio: 39900,
       descripcion: "Aretes en forma de cerradura con acabado texturizado, divinos para ocasiones especiales.",
       imagen: "Aretes_Curiosa_Silver.jpg",
       categoria: "Aretes, Candongas, Piercings",
@@ -183,7 +183,7 @@ const productos = [
     {
         id: 14,
       nombre: "Candongas Caterina",
-      precio: 39.900,
+      precio: 39900,
       descripcion: "Candongas chunky doradas, son livianas y divinas para ocasiones especiales.",
       imagen: "Candongas_Caterina.jpg",
       categoria: "Aretes, Candongas, Piercings",
@@ -197,7 +197,7 @@ const productos = [
     {
         id: 15,
       nombre: "Choker Veronica Silver",
-      precio: 39.900,
+      precio: 39900,
       descripcion: "Choker de eslabones plateado elegante y divino para ocasiones especiales.",
       imagen: "Choker_Veronica_Silver.jpg",
       categoria: "Cadenas, Chokers",
@@ -211,7 +211,7 @@ const productos = [
     {
         id: 16,
       nombre: "Pulsera Poderosa Silver",
-      precio: 34.900,
+      precio: 34900,
       descripcion: "Pulsera de eslabores medianos con broche plateado, divino para ocasiones especiales.",
       imagen: "Pulsera_Poderosa_Silver.jpg",
       categoria: "Muse Collection, Pulseras",
