@@ -4,32 +4,254 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de compra</title>
+    <!--ETIQUETAS META SEO-->
+    <meta name="" content="">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="logos/LOGO ADOR.png" class="bg-dark" type="image/x-icon">
+    <title>Compras ADOR</title>
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!--LINK CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LINK AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK CSS-->
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
-    <div class="grid">
-        <header>
-            <img src="logos/LOGO ADOR.png" class= "sizeLogo center centrarObjectCol" alt="Logo oficial Ador">
+    <div class="container-fluid">
+        <!--LOGO + NAV -->
+        <header class="row">
+                <div class="col-lg-12 col-md-12 ">
+                    <nav class="navbar navbar-expand-lg bg-light position-fixed container-fluid ">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">><img src="logos/LOGO ADOR.png" class="sizeLogo" alt="logo ADOR"></a>
+                          <button class="navbar-toggler p-20 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">SHOP</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">COMO COMPRAR?</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">NEW COLECTION</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">ACERCA DE NOSOTROS</a>
+                              </li>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
         </header>
-        <main class="gridMainIndex">
-            <div>
-                <h1 class="welcome">Welcome to ADOR</h1>
-                <p class="parrafo1">Te garantizamos una gran experiencia a la hora de adquirir nuestros productos</p>
+        <main>
+            <div class="row pt100">
+                <div class="col-lg-12 col-lg-12 tituloUno">
+                    <h1>SHOP</h1>
+                </div>
             </div>
-            <div class="carcompras">
-                <img src="logos/carrito_compras_logo.png" class= "sizeCarrito center" alt="carrito de compras logo">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 comoComprarTitulo">
+                    <h2>Como Comprar?</h2>
+                </div>
+                <div class="col-lg-12 col-md-12 comoComprarParrafo">
+                    <p> 1. Página de inicio:
+                        Presenta una página de inicio atractiva que muestra una selección de joyas para mujer destacadas y promociones especiales.
+                        Incluye un menú de navegación claro y visible que permite a los usuarios acceder a diferentes categorías de productos.
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 comoComprarParrafo">
+                    <p> 2. Búsqueda y exploración:
+                        Proporciona a los usuarios una barra de búsqueda para buscar joyas específicas por nombre, tipo, material, etc.
+                        Ofrece opciones de filtrado, como precio, tipo de joya o material, para ayudar a los usuarios a refinar su búsqueda.
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 comoComprarParrafo">
+                    <p> 3. Detalles del producto:
+                        Al hacer clic en un producto, muestra una página con detalles completos, como imágenes, descripción, precio, opciones de tamaño y material, y disponibilidad.
+                        Incluye una opción para agregar el producto al carrito de compras.
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 comoComprarParrafo">
+                    <p> 4. Carrito de compras:
+                        Permite a los usuarios revisar los artículos que han agregado al carrito.
+                        Muestra una lista clara de los productos con su información relevante, incluyendo precios individuales y totales.
+                        Permite a los usuarios ajustar las cantidades de los productos o eliminarlos del carrito.
+                        Proporciona un resumen del monto total de la compra, incluyendo los impuestos y los gastos de envío si corresponde.
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 comoComprarParrafo">
+                    <p> 5. Proceso de pago:
+                        Solicita al usuario que proporcione la información necesaria para el pago, como dirección de envío, información de contacto y método de pago (tarjeta de crédito, PayPal, etc.).
+                        Asegura una experiencia de pago segura y confiable utilizando medidas de seguridad adecuadas (por ejemplo, SSL, pasarelas de pago confiables).
+                        Permite a los usuarios revisar y confirmar los detalles de la compra antes de proceder al pago.
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 comoComprarParrafo">
+                    <p> 6. Confirmación de compra:
+                        Después de que se complete el pago, muestra una página de confirmación de compra con los detalles de la orden, incluyendo la información de envío y un número de seguimiento si corresponde.
+                        Envía un correo electrónico de confirmación al cliente con los detalles de la compra y la información de contacto del servicio al cliente.
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 comoComprarParrafo">
+                    <p> 7. Seguimiento del envío:
+                        Si se proporciona un número de seguimiento, permite a los usuarios realizar un seguimiento del estado de su envío a través de un enlace o herramienta de seguimiento.
+                    </p>
+                </div>   
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 imgCarrucel imgCarruSize">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                 <img src="Imagenes/catalogo_1.jpg" class="d-block w-100 imgCarruSize " alt="img catalogo 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Imagenes/catalogo_2.jpg" class="d-block w-100 imgCarruSize" alt="img catalogo 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Imagenes/catalogo_3.jpg" class="d-block w-100 imgCarruSize " alt="img catalogo 3">
+                            </div>
+                        </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="misProductos"  class="row">
+                <!--SECCION CATALOGO-->
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Candogas_Domenica.jpg" class="img-fluid"  alt="candongas domenica">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Candongas_Serena.jpg" class="img-fluid" alt="candongas serena">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Candongas_Mirabella_Gold.jpg" class="img-fluid" alt="candongas mirabella">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Candongas_Protectora_Mini_Silver.jpg" class="img-fluid" alt="candongas protectora">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Set_Cadenas_Super_Woman.jpg"  class="img-fluid"alt="set cadenas super woman">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Cadena_Muse_Silver.jpg" class="img-fluid" alt="cadena muse silver">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Choker_Irina_Silver.jpg"  class="img-fluid"alt="choker irina silver">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Cadena_Nicoletta.jpg" class="img-fluid" alt="cadena nicoletta">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/set_cadenas_priscilla.jpg"  class="img-fluid"alt="cadenas priscilla">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Choker_Aria_Gold.jpg"  class="img-fluid"alt="choker aria gold">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Earcuff_Magia_Silver.jpg" class="img-fluid" alt="earcuff magia silver">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Candongas_Maxi_Cora_Gold.jpg" class="img-fluid" alt="candongas maxi cora gold">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Aretes_Curiosa_Silver.jpg" class="img-fluid" alt="aretes curiosa silver">
+                </div> 
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Candongas_Caterina.jpg" class="img-fluid" alt="candongas caterina">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Choker_Veronica_Silver.jpg" class="img-fluid" alt="choker veronica silver">
+                </div>
+                <div class="col-lg-3 col-md-6 settingCatalogo">
+                    <img src="Imagenes/Pulsera_Poderosa_Silver.jpg" class="img-fluid" alt="pulsera poderosa silver">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 pt60 centrarTexto">
+                    <p>Te garantizamos una gran experiencia a la hora de adquirir nuestros productos, aqui puedes observar tu carrito de compras</p>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <h3>TU CARRITO:</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tablabody">
+                            <!--aqui tabla carrito-->
+                        </tbody>
+                    </table>
+                    <h3 id="total"> Total a pagar $</h3>>
+                </div>
+                <div class="col-lg-12 col-md-12 imgCarCompras">
+                    <img src="logos/carrito_compras_logo.png" class= "sizeCarrito " alt="carrito de compras logo">
+                </div>
             </div>
         </main>
-        <footer>
-
+        <footer class="row">
+            <!--SECCION REDES SOCIALES Y CONTACTO-->
+            <div class="col-lg-4 col-md-12 rrssFooter mt-100">
+                <h3>visita nuestras redes sociales</h3><br>
+                <a href="" target="_blank"> Ir a Facebook</a>
+                <img src="" alt="">
+                <a href="" target="_blank"> Ir a Instagram</a>
+                <img src="" alt="">
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <h3>Puedes contactarnos por telefono al siguiente numero:</h3>
+                <a href="tell:+573106272823">+57 (310) 627-2823</a>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="logo">
+                    <!--LOGO-->
+                    <img src="logos/LOGO ADOR.png" class="sizeLogo logoFooter" alt="logo ADOR">
+                </div>
+            </div>
         </footer>
-        <script src="seleccionandoProducto.js"></script>
     </div>
+    <!--LINK JS BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!--LINK AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        AOS.init()
+    </script>
+    <!--LINK JAVA SCRIPT-->
+    <script src="Productos.js"></script>
+    <script src="logica.js"></script>
 </body>
 </html>

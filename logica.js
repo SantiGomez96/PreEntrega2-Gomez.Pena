@@ -16,31 +16,71 @@ let total = 0;
 
 //Ciclo para que el usuario compre o siga comprando
 while(mensaje.toLowerCase() == 's'){
-    let producto = prompt('1 - Candongas Valiente $39900\n2 - Aretes Curiosa Gold $39900\n3 - Cadena Amorosa Silver $49900\n4 - Cadena Amorosa Gold $54900\n5 - Pulsera Cubana Gold $35000\n6 - Pulsera Habana Love $49900');
+    let producto = prompt('1 - Candongas Domenica $39900\n2 - Candongas serena $39900\n3 - Candongas Mirabella Gold $39900\n4 - Candongas Protectora Mini-Silver $59900\n5 - Set Cadenas Super Woman $59900\n6 - Cadena Muse Silver $99900\n7 - Choker Irina Silver $39900\n8 - Cadena Nicoletta $35000\n9 - Set Cadenas Priscilla $49900\n10 - Choker Aria Gold $39900\n11 - Earcuff Magia Silver $29900\n12 - Candongas Maxi Cora Gold $49900\n13 - Aretes Curiosa Silver $39900\n14 - Candongas Caterina $39900\n15 - Choker Veronica Silver $39900\n16 - Pulsera Poderosa Silver $34900');
     //condicional switch para evaluar el producto
     switch(producto){
         case '1':
-            alert('Agregaste Candongas Valiente por $39900 a tu carro 🛒');
+            alert('Agregaste Candongas Domenica por $39900 a tu carro 🛒');
             incrementarTotal(6000);
             break;
         case '2':
-            alert('Agregaste Aretes curiosa Gold por $39900 a tu carro 🛒');
+            alert('Agregaste Candongas serena por $39900 a tu carro 🛒');
             incrementarTotal(3900);
             break;
         case '3':
-            alert('Agregaste Cadena Amorosa Silver por $49900 a tu carro 🛒');
+            alert('Agregaste Candongas Mirabella Gold por $39900 a tu carro 🛒');
             incrementarTotal(40000);
             break;
         case '4':
-            alert('Agregaste Cadena Amorosa Gold por $54900 a tu carro 🛒');
+            alert('Agregaste Candongas Protectora Mini-Silver por $59900 a tu carro 🛒');
             incrementarTotal(40000);
             break;
         case '5':
-            alert('Agregaste Pulsera Cubana Gold por $35000 a tu carro 🛒');
+            alert('Agregaste Set Cadenas Super Woman por $59900 a tu carro 🛒');
             incrementarTotal(40000);
             break;
         case '6':
-            alert('Agregaste Pulsera Habana Love por $49900 a tu carro 🛒');
+            alert('Agregaste Cadena Muse Silver por $99900 a tu carro 🛒');
+            incrementarTotal(40000);
+            break;
+        case '7':
+            alert('Agregaste Choker Irina Silver por $39900 a tu carro 🛒');
+            incrementarTotal(6000);
+            break;
+        case '8':
+            alert('Agregaste Cadena Nicoletta por $35000 a tu carro 🛒');
+            incrementarTotal(3900);
+            break;
+        case '9':
+            alert('Agregaste Set Cadenas Priscilla por $49900 a tu carro 🛒');
+            incrementarTotal(40000);
+            break;
+        case '10':
+            alert('Agregaste Choker Aria Gold por $39900 a tu carro 🛒');
+            incrementarTotal(40000);
+            break;
+        case '11':
+            alert('Agregaste Earcuff Magia Silver por $29900 a tu carro 🛒');
+            incrementarTotal(40000);
+            break;
+        case '12':
+            alert('Agregaste Candongas Maxi Cora Gold por $49900 a tu carro 🛒');
+            incrementarTotal(40000);
+            break;
+        case '13':
+            alert('Agregaste Aretes Curiosa Silver por $39900 a tu carro 🛒');
+            incrementarTotal(40000);
+            break;
+        case '14':
+            alert('Agregaste Candongas Caterina por $39900 a tu carro 🛒');
+            incrementarTotal(40000);
+            break;
+        case '15':
+            alert('Agregaste Choker Veronica Silver por $39900 a tu carro 🛒');
+            incrementarTotal(40000);
+            break;
+        case '16':
+            alert('Agregaste Pulsera Poderosa Silver por $34900 a tu carro 🛒');
             incrementarTotal(40000);
             break;
         default:
