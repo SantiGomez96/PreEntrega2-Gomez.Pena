@@ -139,62 +139,9 @@
                     </div>
                 </div>
             </div>
+            <h2 class="CentrarTextAndObjs" > CATALOGO DE PRODUCTOS</h2>
             <div id="misProductos"  class="row">
                 <!--SECCION CATALOGO-->
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Candogas_Domenica.jpg" class="img-fluid"  alt="candongas domenica">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Candongas_Serena.jpg" class="img-fluid" alt="candongas serena">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Candongas_Mirabella_Gold.jpg" class="img-fluid" alt="candongas mirabella">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Candongas_Protectora_Mini_Silver.jpg" class="img-fluid" alt="candongas protectora">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Set_Cadenas_Super_Woman.jpg"  class="img-fluid"alt="set cadenas super woman">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Cadena_Muse_Silver.jpg" class="img-fluid" alt="cadena muse silver">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Choker_Irina_Silver.jpg"  class="img-fluid"alt="choker irina silver">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Cadena_Nicoletta.jpg" class="img-fluid" alt="cadena nicoletta">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/set_cadenas_priscilla.jpg"  class="img-fluid"alt="cadenas priscilla">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Choker_Aria_Gold.jpg"  class="img-fluid"alt="choker aria gold">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Earcuff_Magia_Silver.jpg" class="img-fluid" alt="earcuff magia silver">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Candongas_Maxi_Cora_Gold.jpg" class="img-fluid" alt="candongas maxi cora gold">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Aretes_Curiosa_Silver.jpg" class="img-fluid" alt="aretes curiosa silver">
-                </div> 
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Candongas_Caterina.jpg" class="img-fluid" alt="candongas caterina">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Choker_Veronica_Silver.jpg" class="img-fluid" alt="choker veronica silver">
-                </div>
-                <div class="col-lg-3 col-md-6 settingCatalogo">
-                    <img src="Imagenes/Pulsera_Poderosa_Silver.jpg" class="img-fluid" alt="pulsera poderosa silver">
-                </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 pt60 centrarTexto">
@@ -215,9 +162,26 @@
                         </tbody>
                     </table>
                     <h3 id="total"> Total a pagar $</h3>>
+                    <button id="vaciarCarrito">Vaciar carrito </button>
                 </div>
                 <div class="col-lg-12 col-md-12 imgCarCompras">
                     <img src="logos/carrito_compras_logo.png" class= "sizeCarrito " alt="carrito de compras logo">
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <h3>Quieres recibir notoficaciones acerca de promociones y nuevos productos? Registrate</h3>
+                    <form id="formulario">
+                        <label for="nombre">
+                            Nombre
+                            <input type="text" name="nombre" id="nombre" placeholder="aqui tu nombre"/>
+                        </label>
+                        <label for="email">
+                            Email:
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com"/>
+                            <small id="advertisement"></small>
+                        </label>
+                        <input type="submit" value="enviar" class="btn btn-success"/>
+                        <input type="button" value="borrar" class="btn btn-danger" onclick="borrarCampos()"/>
+                    </form>
                 </div>
             </div>
         </main>
@@ -226,9 +190,9 @@
             <div class="col-lg-4 col-md-12 rrssFooter mt-100">
                 <h3>visita nuestras redes sociales</h3><br>
                 <a href="" target="_blank"> Ir a Facebook</a>
-                <img src="" alt="">
+                <img src="logos/logo_facebook.jpg" alt="logo facebook">
                 <a href="" target="_blank"> Ir a Instagram</a>
-                <img src="" alt="">
+                <img src="logos/logo_insta.jpg" alt="logo instagram">
             </div>
             <div class="col-lg-4 col-md-12">
                 <h3>Puedes contactarnos por telefono al siguiente numero:</h3>

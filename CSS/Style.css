@@ -10,6 +10,7 @@ nav ul li{display:inline-block;padding:30px;}
 .p40{padding:40px}
 .p70{padding:70px;}
 .p200{padding:200px;}
+.bgCards{background-color:papayawhip;}
 a:hover{
     font-size:20px;
     background-color:papayawhip;
@@ -164,6 +165,29 @@ nav {justify-content:space-between;margin-bottom:40px;background-image: linear-g
     margin-bottom: 20px;
     padding: 30px;
   }
+
+  .CentrarTextAndObjs{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+
+  .CentrarTextAndObjsCol{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+
   
   
   
